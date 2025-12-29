@@ -154,14 +154,14 @@ const App: React.FC = () => {
             <div className="absolute -inset-4 border-2 border-black/5 rounded-[2.5rem] -z-10 group-hover:inset-0 transition-all duration-500"></div>
             <div className="relative rounded-[2rem] overflow-hidden aspect-[4/5] shadow-2xl bg-gray-100 border-2 border-black">
                 <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2000&auto=format&fit=crop" 
+                    src="/irfandp.jpeg" 
                     alt="Irfan Zaki" 
-                    className="relative w-full h-full grayscale object-cover transition duration-700 filter contrast-125 group-hover:grayscale-0 group-hover:scale-110" 
+                    className="relative w-full h-full object-cover transition duration-700 group-hover:scale-110" 
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 pointer-events-none"></div>
-                <div className="absolute bottom-8 left-8 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-30 transition-opacity duration-500 pointer-events-none"></div>
+                <div className="absolute bottom-8 left-8 text-black opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-white/80 px-4 py-2 rounded-lg backdrop-blur-sm">
                     <p className="font-heading font-bold text-2xl">Irfan Zaki</p>
-                    <p className="text-xs uppercase tracking-[0.2em] font-medium">The Engineer-Thinker</p>
+                    <p className="text-xs uppercase tracking-[0.2em] font-medium text-gray-700">The Engineer-Thinker</p>
                 </div>
             </div>
           </div>
@@ -194,7 +194,7 @@ const App: React.FC = () => {
               <h2 className="text-6xl font-bold font-heading text-black tracking-tight">Recent <br /> Works</h2>
               <p className="text-gray-500 font-light text-lg">Logic-heavy experiments and MERN prototypes.</p>
             </div>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-8 py-4 rounded-xl font-bold uppercase text-[10px] tracking-widest flex items-center gap-4 group hover:-translate-y-1 transition-all duration-300">
+            <a href="https://github.com/Irfan-zaki" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-8 py-4 rounded-xl font-bold uppercase text-[10px] tracking-widest flex items-center gap-4 group hover:-translate-y-1 transition-all duration-300">
               Open Github <svg className="group-hover:translate-x-1 transition-transform" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </a>
           </div>
@@ -289,9 +289,9 @@ const App: React.FC = () => {
               {RESUME_DATA.email}
             </a>
             <div className="flex gap-16 font-bold uppercase text-[10px] tracking-[0.4em] text-gray-400">
-              <a href="#" className="hover:text-black hover:tracking-[0.6em] transition-all duration-300">LinkedIn</a>
-              <a href="#" className="hover:text-black hover:tracking-[0.6em] transition-all duration-300">GitHub</a>
-              <a href="#" className="hover:text-black hover:tracking-[0.6em] transition-all duration-300">Twitter</a>
+              <a href="https://www.linkedin.com/in/irfan-zaki-b83485330/" target="_blank" rel="noopener noreferrer" className="hover:text-black hover:tracking-[0.6em] transition-all duration-300">LinkedIn</a>
+              <a href="https://github.com/Irfan-zaki" target="_blank" rel="noopener noreferrer" className="hover:text-black hover:tracking-[0.6em] transition-all duration-300">GitHub</a>
+              <a href="https://x.com/Irfanzaki141" target="_blank" rel="noopener noreferrer" className="hover:text-black hover:tracking-[0.6em] transition-all duration-300">Twitter</a>
             </div>
           </div>
         </section>
